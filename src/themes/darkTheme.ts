@@ -1,16 +1,16 @@
 import { createTheme, alpha } from "@mui/material/styles";
 
 export const AMBER: Record<number, string> = {
-    50: "#FFF8E8",
-    100: "#FDEDC4",
-    200: "#957d44",
-    300: "#F5C249",
-    400: "#F0A800",
-    500: "#E8A020",
-    600: "#C47F00",
-    700: "#9A6000",
-    800: "#704400",
-    900: "#3D2500",
+    50: "#FFF3E6",
+    100: "#FFE0BF",
+    200: "#FFC180",
+    300: "#FFA140",
+    400: "#FF8A1A",
+    500: "#FB8700", // base
+    600: "#D97200",
+    700: "#B35C00",
+    800: "#8C4700",
+    900: "#5C2D00",
 };
 
 export const darkTheme = createTheme({
