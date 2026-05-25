@@ -690,7 +690,7 @@ export default function Home({ setMode, isDark }: Props) {
 					<Typography variant="body1" sx={{ color: textSec, mb: 5, lineHeight: 1.7 }}>GarageMate AI is currently in development. Join the early access wait-list to follow progress, access beta releases, and connect with the vision early.</Typography>
 					<Box sx={{ display: "flex", flexDirection: { xs: "column", sm: "row" }, gap: 2, justifyContent: "center" }}>
 						<Button variant="contained" color="primary" size="large" sx={{ px: 5 }} onClick={() => setWaitlistOpen(true)}>Get Early Access</Button>
-						<Button variant="outlined" color="primary" size="large" sx={{ px: 5 }}>Learn More</Button>
+						<Button variant="outlined" color="primary" size="large" sx={{ px: 5 }} onClick={() => navigate("/learn")}>Learn More</Button>
 					</Box>
 				</Container>
 			</Box>
